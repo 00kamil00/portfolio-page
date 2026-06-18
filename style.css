@@ -3,6 +3,10 @@ body {
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 ul {
     list-style: none;
     padding: 0;
@@ -76,19 +80,20 @@ a {
     margin-bottom: 24px;
 }
 
-.main-image {
+.main-info-anchors {
     display: flex;
-    width: 450px;
-    max-width: 100%;
-    height: 250px;
-    max-height: 100%;
-    background-color: rgb(153, 153, 153);
-    color: #E5E7EB;
-    flex-shrink: 0;
-
-    /* wlasciwosci pod tym tylko na chwile, dzialaja na tekst w srodku */
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.main-info-anchors button {
+    height: 50px;
+    width: 250px;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 button {
