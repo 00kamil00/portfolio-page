@@ -155,33 +155,42 @@ button:hover {
     align-items: center;
 }
 
-.quote-container {
+.projects-container {
     background-color: #E5E7EB;
     width: 100%;
-    height: 500px;
+    height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
 }
 
-.quote {
+.projects-title {
     font-size: 36px;
+    font-weight: 900;
     color: #1F2937;
-    font-weight: 300;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+}
+
+.projects {
+    height: 100%;
+    margin-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding-left: 25%;
-    padding-right: 25%;
+    gap: 90px;
 }
 
-.quote-signature {
-    width: 100%;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: right;
+.projects-card {
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+    height: 650px;
+    width: 450px;
+
+    /* text setgings */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .call-to-action-container {
