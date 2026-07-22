@@ -66,6 +66,10 @@ a {
     color: #3882F6;
 }
 
+.links li:active {
+    transform: scale(0.9);
+}
+
 .container-2 {
     display: flex;
     justify-content: space-between;
