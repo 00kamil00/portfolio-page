@@ -210,13 +210,49 @@ button:active {
     gap: 90px;
 }
 
-.projects-card {
+.project-card {
     border: 5px solid #3882F6;
     border-radius: 20px;
     height: 650px;
     width: 450px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
 
-    /* text setgings */
+.project-card .image {
+    border: 2px solid red;
+    border-radius: 20px;
+    height: 250px;
+    width: 100%;
+    display: flex;
+}
+
+.project-card .description {
+    font-size: 1.3rem;
+}
+
+.project-card .stack {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 1.2rem;
+}
+
+.project-card .stack p {
+    border: 2px solid red;
+    border-radius: 20px;
+    padding: 8px;
+    height: 40px;
+    width: 80px;
+    text-align: center;
+}
+
+.project-card .link {
+    border: 2px solid red;
+    border-radius: 20px;
+    width: 100%;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
