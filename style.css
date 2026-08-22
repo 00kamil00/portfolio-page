@@ -154,4 +154,102 @@ body {
     background-color: #2f3a06;
     border: 1px solid #caf44b;
 }
+
+
+
+#container1-right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#id-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    border: 1px solid var(--accent-green);
+    border-radius: 20px;
+    height: 550px;
+    width: 400px;
+
+    background: #171d02;
+}
+
+#pulse-icon {
+    filter: brightness(0) invert(1);
+    width: 34px;
+    height: auto;
+}
+
+#id-card-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#id-card-nav > p {
+    border: 1px solid var(--accent-green);
+    border-radius: 5px;
+
+    padding: 5px;
+
+    color: var(--text-white);
+}
+
+
+#id-card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#id-img {
+    border: 1px solid var(--text-white);
+    border-radius: 10px;
+
+    width: 250px;
+    height: 250px;
+}
+
+#id-h3 {
+    font-size: 1.8rem;
+    color: var(--text-white);
+    letter-spacing: 1px;
+}
+
+#id-description {
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+}
+
+#id-card-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#id-card-footer-left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#id-text {
+    font-size: 0.8rem;
+}
+
+#id-number {
+    color: var(--text-white);
+    font-size: 0.9rem;
+}
+
+#fingerprint-icon {
+    filter: brightness(0) invert(1);
+    width: 34px;
+    height: auto;
+}
 /* ---------- container1 ---------- */
