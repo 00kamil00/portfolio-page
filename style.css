@@ -11,6 +11,7 @@
 :root {
     --bg-dark: #070B10;
     --bg-dark-2: #101418;
+    --bg-dark-3: #090E13
     --text-white: #ffffff;
     --text-grey: #c2c2c2;
     --accent-green: #b7e72a;
@@ -37,8 +38,10 @@ body {
     border-bottom: 1px solid transparent;
     border-image: linear-gradient(to right, #b7e72a, #50514e, #50514e) 1;
 
-    /* position: sticky;
-    top: 1px; */
+    position: sticky;
+    top: 0px;
+    background-color: var(--bg-dark);
+    opacity: 0.95;
 }
 
 #nav-right-side {
@@ -253,3 +256,18 @@ body {
     height: auto;
 }
 /* ---------- container1 ---------- */
+
+
+
+
+/* ---------- container2 ---------- */
+#container2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    min-height: 100vh;
+    padding: 20px 350px;
+
+    background-color: var(--bg-dark-3);
+}
+/* ---------- container2 ---------- */
