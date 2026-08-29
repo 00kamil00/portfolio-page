@@ -10,11 +10,12 @@
 
 :root {
     --bg-dark: #070B10;
+    --bg-dark-1: #0a0f14;
     --bg-dark-2: #101418;
-    --bg-dark-3: #090E13
     --text-white: #ffffff;
     --text-grey: #c2c2c2;
     --accent-green: #b7e72a;
+    --border-gray: #3e3e3e;
 }
 
 body {
@@ -75,13 +76,24 @@ body {
 /* ---------- nav ---------- */
 
 
+.section-number {
+    font-size: 0.8rem;
+    color: var(--accent-green);
+    margin: 20px 0px;
+}
+
+
 /* ---------- container1 ---------- */
 #container1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     
     min-height: 100vh;
-    padding: 20px 350px;
+    padding: 120px 350px;
+
+    background-color: var(--bg-dark);
+
+    border-bottom: 1px solid var(--border-gray);
 }
 
 
@@ -159,6 +171,9 @@ body {
 }
 
 
+#container1-left-side {
+    margin-right: 40px;
+}
 
 #container1-right-side {
     display: flex;
@@ -261,13 +276,64 @@ body {
 
 
 /* ---------- container2 ---------- */
-#container2 {
+#cont2 {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 2fr;
     
-    min-height: 100vh;
-    padding: 20px 350px;
+    padding: 100px 350px 0px;
 
-    background-color: var(--bg-dark-3);
+    background-color: var(--bg-dark-1);
+    color: white;
+
+    border-bottom: 1px solid var(--border-gray);
+}
+
+#cont2-top {
+    margin-bottom: 100px;
+}
+
+#cont2-desc {
+    font-size: 4rem;
+}
+
+#desc1 {
+    font-size: 1.5rem;
+    letter-spacing: 1.2px;
+}
+
+#desc2,
+#desc3 {
+    font-size: 0.95rem;
+    letter-spacing: 1.3px;
+    line-height: 25px;
+    color: var(--text-grey);
+    margin: 20px 0px;
+}
+
+#cont2-bottom {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+#cont2-bottom-left {
+    margin-right: 40px;
+}
+
+#cont2-bottom-right h5 {
+    font-size: 1.15rem;
+    margin-bottom: 10px;
+}
+
+#cont2-bottom-right p {
+    font-size: 0.95rem;
+    color: var(--text-grey);
+    letter-spacing: 1.1px;
+    line-height: 20px;
+}
+
+.cont2-mini-desc {
+    padding: 20px;
+    border-top: 1px solid var(--accent-green);
+    border-bottom: 1px solid var(--accent-green);
 }
 /* ---------- container2 ---------- */
