@@ -34,7 +34,7 @@ body {
     align-items: center;
 
     height: 80px;
-    padding: 0px 350px;
+    padding: 0px 300px;
 
     border-bottom: 1px solid transparent;
     border-image: linear-gradient(to right, #b7e72a, #50514e, #50514e) 1;
@@ -43,6 +43,11 @@ body {
     top: 0px;
     background-color: var(--bg-dark);
     opacity: 0.95;
+    z-index: 1;
+}
+
+#nav-name {
+    color: var(--text-white);
 }
 
 #nav-right-side {
@@ -56,6 +61,7 @@ body {
     text-decoration: underline;
     text-decoration-color: var(--accent-green);
     text-underline-offset: 7px;
+    color: var(--text-white);
 }
 
 #contact-btn {
@@ -89,7 +95,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
     
     min-height: 100vh;
-    padding: 120px 350px;
+    padding: 120px 300px;
 
     background-color: var(--bg-dark);
 
@@ -280,7 +286,7 @@ body {
     display: grid;
     grid-template-rows: 1fr 2fr;
     
-    padding: 100px 350px 0px;
+    padding: 100px 300px 0px;
 
     background-color: var(--bg-dark-1);
     color: white;
