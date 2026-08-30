@@ -418,3 +418,122 @@ body {
     font-size: 0.8rem;
 }
 /* ---------- container3 ---------- */
+
+
+
+/* ---------- container4 ---------- */
+#cont4 {
+    display: flex;
+    flex-direction: column;
+
+    padding: 120px 300px;
+    min-height: 100vh;
+
+    color: var(--text-white);
+    background-color: var(--bg-dark-1);
+    border-bottom: 1px solid var(--border-gray);
+}
+
+#cont4-h2 {
+    font-size: 3.5rem;
+    margin-right: 30%;
+}
+
+#cont4-bottom {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 80px;
+    gap: 20px;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    border: 1px solid var(--border-gray);
+    border-radius: 20px;
+
+    background-color: var(--bg-dark);
+
+    width: 370px;
+    height: 600px;
+
+    overflow: hidden;
+
+    transition: transform 0.2s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-3px);
+    border: 1px solid var(--accent-green);
+    box-shadow: 0 0 20px 5px #2f3a06;
+}
+
+.project-card-img {
+    width: 100%;
+    height: 35%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.project-card-content {
+    margin: 0px 30px;
+}
+
+
+.project-name {
+    color: var(--text-white);
+
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+    letter-spacing: 1.2px;
+}
+
+.project-desc {
+    color: var(--text-grey);
+
+    margin: 30px 0px;
+
+    font-size: 0.9rem;
+    letter-spacing: 1.1px;
+}
+
+.project-tech-stack {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.project-tech-stack p {
+    color: var(--accent-green);
+    border: 1px solid var(--accent-green);
+    border-radius: 20px;
+
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    padding: 8px;
+}
+
+.project-btn {
+    border: 1px solid var(--text-grey);
+    border-radius: 5px;
+    background-color: var(--bg-dark-2);
+    color: var(--text-white);
+
+    width: 100%;
+
+    padding: 8px;
+    margin: 40px 0px 30px;
+
+    transition: transform 0.2s ease;
+}
+
+.project-btn:hover {
+    transform: translateY(-3px);
+    cursor: pointer;
+    background-color: #2f3a06;
+    border: 1px solid #caf44b;
+}
+/* ---------- container4 ---------- */
