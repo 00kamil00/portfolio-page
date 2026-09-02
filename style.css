@@ -537,3 +537,34 @@ body {
     border: 1px solid #caf44b;
 }
 /* ---------- container4 ---------- */
+
+
+/* ---------- container5 ---------- */
+#cont5 {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+
+    padding: 120px 300px;
+    min-height: 100vh;
+
+    color: var(--text-white);
+    background-color: var(--bg-dark);
+    border-bottom: 1px solid var(--border-gray);
+}
+
+#cont5-top-info {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+#cont5-h2 {
+    font-size: 4rem;
+}
+
+#cont5-p {
+    font-size: 1rem;
+    color: var(--text-grey);
+}
+/* ---------- container5 ---------- */
